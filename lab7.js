@@ -53,3 +53,41 @@ const getTwoLengths = (string1, string2) => {
   return [string1.length, string2.length]
 }
 console.log(getTwoLengths("Nicholas", "Smith"))
+
+//Get Multiple Lengths
+//Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+
+//console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+//=> [5, 4, 2, 2, 4]
+
+//1) Write a function GetMultipleLengths
+//2) Function should accept an array of strings as an argument (param)
+//3) Function should return an array of numbers
+//4) Each number should be the length of the corresponding string
+
+const getMultipleLengths = ([]) => {
+  return
+}
+console.log(getMultipleLengths(["Nicholas", "James", "Smith"]))
+//INCOMPLETE
+
+//Maximum of Three Numbers
+//Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+
+//console.log(maxOfThree(6, 9, 1));
+//=> 9
+
+//1) Define a function maxOfThree
+//2) Function should take 3 numbers as arguments
+//3) Function should return largest number
+//4) If all numbers are the same, it doesn't matter which is returned
+//5) If the two largest numbers are the same, than one of them should be returned
+
+const maxOfThree = (num1, num2, num3) => {
+  return Math.max(num1, num2, num3);
+}
+console.log(maxOfThree(1, 3, 7))
+console.log(maxOfThree(2, 2, 2))
+console.log(maxOfThree(4, 4, 1))
+//  if (num1 === num2 || num2 === num3 || num3 === num1) {
+//  return Math.
