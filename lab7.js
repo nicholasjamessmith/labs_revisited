@@ -37,3 +37,19 @@ console.log(isAVowel("N"))
 
 //console.log(isAVowel2("Z"))
 //console.log(isAVowel2("e"))
+
+//Get Two Lengths
+//Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+//console.log(getTwoLengths("Hank", "Hippopopalous"));
+//=> [4, 13]
+
+//1) Write a function named getTwoLengths
+//2) Function should accept two parameters (strings)
+//3) Function should return an array of numbers
+//4) Each number should be the length of the corresponding string
+
+const getTwoLengths = (string1, string2) => {
+  return [string1.length, string2.length]
+}
+console.log(getTwoLengths("Nicholas", "Smith"))
